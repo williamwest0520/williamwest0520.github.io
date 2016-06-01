@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset = "utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Ramblings</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">Cameras</a></li>
+          <li><a href="#">Lenses</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Out-of-Order</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <h1 style="margin-left:20px">Cameras</h1>
+    <p style="margin-left:40px">A list of all my cameras</p>
+
+    <div class="itemList">
+      <div class="container">
+        <div class="row">
+          <a href="#">
+            <div class="col-sm-2">
+              <div class="thumbnail">
+                <img src="http://vignette4.wikia.nocookie.net/camerapedia/images/6/60/Canon_AE-1_03.jpg/revision/latest?cb=20120322085322" alt="Canon AE-1">
+              </div>
+            </div>
+            <div class="col-sm-10">
+              <div class="itemDescription">
+                <h3>Canon AE-1</h3>
+                <p>This is my main shooter. I actually have 4 in various states of operation (2 working and 2 not).</p>
+                <p>&emsp;&emsp;<a href="ae1.html">AE-1 Page -></a></p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="thumbnail">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Canon_FTb_50mm.jpg" alt="Canon FTb">
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="itemDescription">
+              <h3>Canon FTb</h3>
+              <p>This camera kind of started everything. It was my wife's grandfather's.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="thumbnail">
+              <img src="http://4.bp.blogspot.com/-Rwf9cW1-xuY/Uii27w3JudI/AAAAAAAAIK0/mcTFeVDZ4Hk/s1600/Graflex+Century+Graphic.JPG" alt="Graphlex Century Graphic">
+            </div>
+          </div>
+          <div class="col-sm-10">
+            <div class="itemDescription">
+              <h3>Graphlex Century Graphic</h3>
+              <p>A good friend and his father gave this to me. It's a wonderful taste of what large format is like.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
